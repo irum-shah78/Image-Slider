@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 1rem;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(134, 129, 129);
+}
+h1{
+  /* color: white; */
+  text-align: center;
+  margin: 20px 20px;
+}
+.slider{
+  position: relative;
+  max-width: 40rem;
+  height: 25rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slide{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bottom-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
+.bottom-container button{
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.dots-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dots-container .dot{
+  width: 35px;
+  height: 10px;
+  border-radius: 8px;
+  background-color: black;
+  cursor: pointer;
+}
