@@ -64,3 +64,6 @@ h1{
   background-color: black;
   cursor: pointer;
 }
+.dots-container .dot.active{
+  background-color: white;
+}
