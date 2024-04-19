@@ -3,7 +3,7 @@ const dotsContainer = document.querySelector('.dots-container')
 
 async function fetchImages() {
   try {
-    const response = await fetch('https://picsum.photos/v2/list?page=2&limit=5', { method: 'GET' });
+    const response = await fetch('https://picsum.photos/v2/list?page=2&limit=3', { method: 'GET' });
 
     const imagesList = await response.json();
     if (imagesList && imagesList.length > 0) displayImages(imagesList);
